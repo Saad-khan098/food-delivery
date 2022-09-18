@@ -8,6 +8,7 @@ const MongoDBStore = require('connect-mongodb-session')(session);
 const passport = require('passport')
 const localStrategy = require('./Utils/Passport')
 const Address = require('./Models/Address.js');
+require('dotenv').config();
 
 console.log('checking only')
 
@@ -125,5 +126,5 @@ app.post('/order', checkAuthenticated, async(req,res)=> {
     res.end();
 })
 
-app.listen(5000);
+app.listen( process.env.PORT || 5000);
 
