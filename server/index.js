@@ -9,6 +9,8 @@ const passport = require('passport')
 const localStrategy = require('./Utils/Passport')
 const Address = require('./Models/Address.js');
 
+console.log('checking only')
+
 
 
 const app = express();
