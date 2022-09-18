@@ -1,0 +1,17 @@
+.cart{
+    height: 100%;
+    width: 30%;
+    background-color: red;
+    position: fixed;
+    right: 0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.button{
+    background-color: #f6f6f9;
+    color: red;
+    font-weight: 550;
+}

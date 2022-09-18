@@ -1,0 +1,9 @@
+.categoryPic{
+    display: flex;
+    align-items: center;
+}
+.categoryPic img{
+    width: 300px;
+}
+.categoryPic button{
+}

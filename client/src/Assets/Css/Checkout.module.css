@@ -1,0 +1,11 @@
+.checkout{
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    height: 100vh;
+}
+.orderNumber{
+    display: flex;
+    gap: 20px;
+
+}

@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.category{
+    max-height: 185px;
+    max-width: 185px;
+    width: 185px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.category img{
+    width: 120px;
+    height: 120px;
+    transition: all ease 0.1s;
+}
+.category.active{
+    border: solid black 5px;
+}
+.category:hover img{
+    transform: scale(1.1);
+
+}

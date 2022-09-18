@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+}
+.logoContainer{
+    /* background-color: red; */
+}
+.logoContainer img{
+    width: 80px;    
+}
+.rightSide{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    
+}
+.cartIcon{
+    position: relative;
+}
+.cartIcon .count{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25px;
+    height: 25px;
+    position: absolute;
+    top:-10px;
+    right: -15px;
+    color: white;
+}
+
